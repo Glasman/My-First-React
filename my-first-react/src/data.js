@@ -1,3 +1,4 @@
+// import './index.css'
 export const puppyList = [
   {
     id: 1,

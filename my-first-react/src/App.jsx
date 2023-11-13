@@ -1,5 +1,7 @@
 import {puppyList} from './data.js'
 import { useState } from 'react'
+import './index.css'
+import './App.css'
 function App() {
   const [puppies, setPuppies] = useState(puppyList)
   const [featPupId, setFeatPupId] = useState(null)
